@@ -1,0 +1,45 @@
+.pubg {
+    display: flex;
+    width: 30%;
+    height: 250px;
+    gap: 5px;
+}
+
+.pubg > img {
+    width: 15%;
+    height: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid grey;
+    /* border-radius: 10px 30px 50px 70px; */
+    border-radius: 10px 100px/120px;
+    transition: all ease 0.5s;
+}
+
+.pubg > img:hover {
+      width: 100%;
+      scale: 1.1;
+}
+
+body {
+    background-color: #0b1522;
+    padding: 8% 0% 0% 1%;
+}
+
+#PB {
+    animation:color 5s infinite;
+}
+
+@keyframes color {
+    0%{color: orange;}
+    10%{color: purple;}
+    20%{color: red;}
+    30%{color: cyan;}
+    40%{color:deeppink;}
+    50%{color: yellow;}
+    60%{color: indigo;}
+    70%{color: green;}
+    80%{color: cadetblue;}
+    90%{color: coral;}
+    100%{color: darkgoldenrod;}
+}
